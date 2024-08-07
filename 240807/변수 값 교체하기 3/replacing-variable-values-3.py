@@ -1,5 +1,6 @@
-a, b = 5, 3
+a, b = 3, 5
 
 a, b = b, a
 
-print(f"A is {a} B is {b}")
+print(a)
+print(b)
