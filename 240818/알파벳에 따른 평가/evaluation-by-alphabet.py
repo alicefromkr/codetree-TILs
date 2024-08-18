@@ -3,4 +3,4 @@ c = input("")
 if c in d.keys():
     print(d[c])
 else:
-    print("failure")
+    print("Failure")
