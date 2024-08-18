@@ -1,3 +1,4 @@
 numlist = input("")
 n = numlist.split(" ")
-print(min([int(x) for x in n]))
+nlist = [int(x) for x in n]
+print(min(nlist))
