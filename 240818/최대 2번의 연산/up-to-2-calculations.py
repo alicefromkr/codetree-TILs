@@ -1,11 +1,7 @@
 a = int(input(""))
 
-def calc(a):
-    if a%2 == 0:
-        return(a//2)
-    else:
-        return((a+1)//2)
-
-b = calc(a)
-c = calc(b)
-print(c)
+if a%2 == 0:
+    a = a//2
+if a%2 == 1:
+    a = (a+1)//2
+print(a)
