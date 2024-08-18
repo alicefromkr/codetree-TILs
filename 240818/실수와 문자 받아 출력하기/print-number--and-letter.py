@@ -1,0 +1,6 @@
+a = input("")
+print(a)
+b = float(input(""))
+print(f"{b:.2f}")
+c = float(input(""))
+print(f"{c:.2f}")
