@@ -8,4 +8,4 @@ pt = pt_list.split(" ")
 pt_age = int(pt[0])
 pt_sex = pt[1]
 
-print(int((po_sex == "M" or pt_sex == "M") and (po_age >= 19 or pt_age >=19)))
+print(int(( pt_age >=19 and pt_sex == "M") or (po_sex == "M" and po_age >= 19)))
